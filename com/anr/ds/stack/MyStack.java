@@ -1,6 +1,6 @@
 package com.anr.ds.stack;
 
-public class StackDataStructure {
+public class MyStack {
 
     int[] stackStorage;
 
@@ -8,7 +8,7 @@ public class StackDataStructure {
     int capacity;
 
     // Creating a stack with some capacity
-    StackDataStructure (int capacity) {
+    MyStack(int capacity) {
         stackStorage = new int[capacity]; // setting up a storage
         top = -1; // initializing top index
         this.capacity = capacity;

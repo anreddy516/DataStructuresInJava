@@ -2,9 +2,9 @@ package com.anr.ds.stack;
 
 import java.util.Scanner;
 
-public class StackDataStructureTest {
+public class MyStackTest {
     public static void main(String[] args) {
-        StackDataStructure stack = new StackDataStructure(4);
+        MyStack stack = new MyStack(4);
         int item;
 
         Scanner scanner = new Scanner(System.in);
