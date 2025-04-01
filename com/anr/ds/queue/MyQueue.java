@@ -26,7 +26,7 @@ public class MyQueue {
 
     // isQueueEmpty()
     boolean isQueueEmpty() {
-        if (this.front == -1 && this.rear == -1) {
+        if ((this.front == -1 && this.rear == -1) || (this.front > this.rear)) {
             return true;
         } else {
             return false;
@@ -87,7 +87,7 @@ public class MyQueue {
             for (int i = front; i <= rear; i++) {
                 System.out.print(this.queueItems[i] + " ");
             }
-            System.out.println();
         }
+        System.out.println();
     }
 }
